@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: raleway;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    font-size: 40px;
+}
+
+aside {
+    color: white;
+    font-family: raleway;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+article {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: raleway;
+    margin: 10%;
+}
+
+hr {
+    bottom: 0px;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+}
