@@ -20,6 +20,34 @@ aside {
     font-family: myFirstFont;
 }
 
+.nav {
+    font-family: myFirstFont;
+    letter-spacing: 4px;
+    top: 0px;
+    text-align: center;
+}
+.nav a:hover:active {
+    background-color: grey;
+    cursor: pointer;
+}
+.nav li {
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.nav a {
+    padding: 0.8em;
+    border: 1px solid black;
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    border-radius: 0.7em;
+}
+.nav a:hover {
+    border: 1px solid white;
+    border-radius: 0.7em;
+}
+
 a:link {
   color: white;
 }
