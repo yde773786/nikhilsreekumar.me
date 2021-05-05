@@ -1,10 +1,19 @@
 @font-face {
   font-family: myFirstFont;
-  src: url('../fonts/raleway-light.woff') format('woff');
+  src: url('../assets/raleway-light.woff') format('woff');
 }
 
-body {
+html, body{
     background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    text-align: center;
+    overflow: auto;
 }
 
 h1 {
@@ -72,12 +81,18 @@ article {
     margin: 10%;
 }
 
+embed {
+    margin-top: 30px;
+    width: 40%;
+    height: 85%;
+}
+
 hr{
     background-color: white;
 }
 
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
 }
