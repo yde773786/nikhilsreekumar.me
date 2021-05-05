@@ -27,7 +27,8 @@ aside {
     text-align: center;
 }
 .nav a:hover:active {
-    background-color: grey;
+    background-color: white;
+    color: black;
     cursor: pointer;
 }
 .nav li {
@@ -39,7 +40,6 @@ aside {
     padding: 0.8em;
     border: 1px solid black;
     display: inline-block;
-    color: grey;
     text-decoration: none;
     border-radius: 0.7em;
 }
@@ -72,11 +72,12 @@ article {
     margin: 10%;
 }
 
-hr {
-    bottom: 0px;
+hr{
+    background-color: white;
 }
 
 footer {
-    position: relative;
-    bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
