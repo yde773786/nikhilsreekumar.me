@@ -57,19 +57,19 @@ aside {
     border-radius: 0.7em;
 }
 
-a:link {
+.nontb:link {
   color: white;
 }
 
-a:visited {
+.nontb:visited {
   color: white;
 }
 
-a:hover {
+.nontb:hover {
   color: white;
 }
 
-a:active {
+.nontb:active {
   color: white;
 }
 
@@ -95,4 +95,34 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.table{
+    margin: auto;
+    padding: 10%;
+    font-family: myFirstFont;
+    color: white;
+    border-spacing: 20%;
+}
+
+.table tr td{
+    width: 40%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.table tr td a img{
+    background-image: url("../assets/background.jpeg");
+    display: inline;
+    width: 40%;
+}
+
+.table tr td article{
+    text-align: center;
+    margin: 30%;
+    margin-top: 0px;
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
 }
