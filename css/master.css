@@ -92,8 +92,10 @@ footer {
 }
 
 .table{
-    margin: auto;
-    padding: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+    border-spacing: 25px;
     font-family: myFirstFont;
     color: white;
 }
@@ -101,25 +103,35 @@ footer {
 .table tr td{
     width: 40%;
     vertical-align: top;
-    text-align: center;
 }
 
-.table tr td a img{
+.table tr td div a img{
     background-image: url("../assets/background.jpeg");
-    display: inline;
-    width: 40%;
+    width: 100%;
+    margin-left: 0;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
 
-.table tr td article{
+.table tr td div{
+    width: 40%;
+    margin: auto;
+}
+
+.table tr td div:hover {
+    transform: scale(1.15);
+}
+
+.table tr td div article{
     text-align: center;
-    margin: 30%;
     margin-top: 0px;
+    margin-left: 0;
+    width: 100%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: white;
     font-size: 20px;
     color: black;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
