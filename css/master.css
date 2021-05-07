@@ -7,13 +7,15 @@ html, body{
     background-color: black;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
 
 main {
     height: 100%;
     text-align: center;
-    overflow: auto;
+}
+
+header {
+    width: 100%;
 }
 
 h1 {
@@ -26,7 +28,15 @@ h1 {
 
 aside {
     color: white;
+    display: inline-block;
     font-family: myFirstFont;
+
+}
+
+address {
+    position: absolute;
+    display: inline-block;
+    right: 1%;
 }
 
 .nav {
@@ -83,6 +93,7 @@ article {
 
 hr{
     background-color: white;
+    margin-top: 1%;
 }
 
 footer {
