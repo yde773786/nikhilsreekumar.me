@@ -53,6 +53,7 @@ address {
 .nav li {
     display: inline-block;
     margin-left: 5%;
+    margin-right: 5%;
 }
 .nav a {
     padding: 0.8em;
@@ -85,7 +86,7 @@ article {
     font-size: 30px;
     color: white;
     font-family: myFirstFont;
-    margin-top: 10%;
+    margin-top: 6%;
     margin-left: 10%;
     margin-right: 10%;
 }
