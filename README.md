@@ -1,2 +1,2 @@
-# [yde773786.github.io](https://yde773786.github.io/)
+# [nikhilsreekumar.me](nikhilsreekumar.me)
 A fun playground where I mess around with web technologies and describe myself to the world while I'm at it.
