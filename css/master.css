@@ -73,6 +73,10 @@ address {
   color: white;
 }
 
+address{
+    text-align: center;
+}
+
 .nontb:hover {
   color: white;
 }
@@ -105,14 +109,14 @@ footer {
 .table{
     margin-left: auto;
     margin-right: auto;
-    padding: 5%;
-    border-spacing: 25px;
+    padding: 2%;
+    border-spacing: 45px;
     font-family: myFirstFont;
     color: white;
 }
 
 .table tr td{
-    width: 40%;
+    width: 25%;
     vertical-align: top;
 }
 
@@ -125,7 +129,7 @@ footer {
 }
 
 .table tr td div{
-    width: 40%;
+    width: 55%;
     margin: auto;
 }
 
@@ -137,7 +141,7 @@ footer {
     text-align: center;
     margin-top: 0px;
     margin-left: 0;
-    width: 100%;
+    width: 90%;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
     background-color: white;
@@ -145,4 +149,6 @@ footer {
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 5%;
+    padding-left: 5%;
 }
